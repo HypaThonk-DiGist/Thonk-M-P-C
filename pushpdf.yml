@@ -1,0 +1,8 @@
+name: LaTeX compilation
+description: Compiles latex documents using pdflatex, lualatex, xelatex. Full TeXLive distribution.
+author: Arjun
+inputs:
+  root_file:
+    description: codes.tex
+  working_directory:
+    description: https://github.com/Psi25Omega/stuff-of-the-day
