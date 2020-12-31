@@ -15,7 +15,7 @@ jobs:
           root_file: codes.tex
           working_directory: /
       - name: Compile basic LaTeX document with lualatex
-        uses: .github/workflows/
+        uses: ./
         with:
           root_file: codes.tex
           working_directory: .github/workflows/
