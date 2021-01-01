@@ -1,19 +1,4 @@
-%Preamble%
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath, amssymb, amsfonts}
-\usepackage{pgfplots, tikz}
-\usepackage{tcolorbox, mdframed, hyperref}
-\pgfplotsset{compat=1.17}
-\tcbset{boxrule=0pt, width=5in, fonttitle=\sffamily\bfseries, sharp corners}
-%
-\begin{document}
-\begin{align*}
-    \sffamily\LARGE\textbf{Stuff of the Day - Compiled Version}
-\end{align*}
-\sffamily
-\begin{align*}
-\textbf{\href{https://github.com/Psi25Omega/stuff-of-the-day}{Github Repository}}%Preamble
+%Preamble
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath, amssymb, amsfonts}
@@ -31,7 +16,7 @@
 \newenvironment{mathbox}[1][2]
 {
   \vspace{1em}
-  \begin{tcolorbox}[colback=yellow!40!white, colframe=yellow!60!red, title=#1]
+  \begin{tcolorbox}[colback=yellow!50!white, colframe=yellow!60!red, title=#1]
   #
 }
 {
@@ -80,7 +65,7 @@
 \begin{align*}
     \LARGE\textbf{One Learning a Day, One Subject at a Time}
 \end{align*}
-%
+%------------------------------------------------------------
 \begin{align*}
 \textbf{\href{https://github.com/Psi25Omega/stuff-of-the-day}{\Large{Github Repository}}}
 \end{align*}
@@ -110,7 +95,7 @@ There are more than \textbf{10 million} cases of \textbf{Vitamin D deficiency} p
 \textit{Work Hard, Play Harder!} :')
 \end{biobox} 
 %------------------------------------------------------------
-\begin{mathbox}[\text{30-12-2020, \href{https://en.wikipedia.org/wiki/Catalan\%27s_conjecture}{Catalan's Conjecture}}]
+\begin{mathbox}[\text{Some Day, \href{https://en.wikipedia.org/wiki/Catalan\%27s_conjecture}{Catalan's Conjecture}}]
 There exists only \textbf{one solution} where $x=3, a=2, y=2, b=3$ to the equation
 \begin{align*} 
     \textbf{$x^a - y^b = 1$} 
@@ -118,14 +103,14 @@ There exists only \textbf{one solution} where $x=3, a=2, y=2, b=3$ to the equati
 for \textbf{$a,b > 1$} and \textbf{$x,y > 0$}.
 \end{mathbox}
 %------------------------------------------------------------
-\begin{phybox}[\text{31-12-2020, \href{https://en.wikipedia.org/wiki/Bohr_model#Origin}{Angular Momentum of an Electron}}]]
+\begin{phybox}[\text{Another Day, \href{https://en.wikipedia.org/wiki/Bohr_model#Origin}{Angular Momentum of an Electron}}]
 The \textbf{angular momentum} $(L)$ of an \textbf{electron} in the $n^{th}$ orbit is given by 
 \begin{align*} 
     L = \frac{nh}{2\pi} 
 \end{align*} where $h$ is the \textbf{Planck's constant}. 
 \end{phybox}
 %------------------------------------------------------------
-\begin{chembox}[\text{01-01-2021, \href{https://en.wikipedia.org/wiki/Gibbs_free_energy}{Gibbs Free Energy}}]
+\begin{chembox}[\text{Some Other Day, \href{https://en.wikipedia.org/wiki/Gibbs_free_energy}{Gibbs Free Energy}}]
 In thermodynamics, the \textbf{Gibbs Free Energy} $(G)$ (named after Josiah Willard Gibbs) is a \textbf{thermodynamic potential} that calculates the \textbf{maximum reversible work} performed by a thermodynamic system at a \textbf{constant temperature} $(T)$ and pressure\textbf{} $(P)$. It is given by 
 \begin{align*} 
     \Delta G=\Delta H-T\Delta S 
@@ -133,33 +118,4 @@ In thermodynamics, the \textbf{Gibbs Free Energy} $(G)$ (named after Josiah Will
 \end{chembox}
 %------------------------------------------------------------
 %------------------------------------------------------------
-\end{document}
-
-\end{align*}
-%
-%Code%
-%
-\begin{tcolorbox}[title=\text{30-12-2020, Catalan's Conjecture}]
-There exists only one solution where $x=3, a-2, y=2, b=3$ to the equation 
-\begin{align*} 
-    x^a - y^b = 1 
-\end{align*} 
-for $a,b > 1$ and $x,y > 0$.
-\end{tcolorbox}
-%
-\begin{tcolorbox}[title=\text{31-12-2020, Angular Momentum of an Electron}]
-The angular momentum $(L)$ of an electron in the $n^{th}$ orbit is given by 
-\begin{align*} 
-    L = \frac{nh}{2\pi} 
-\end{align*} where $h$ is the Planck's constant. 
-\begin{flushright} \textit{Niels Bohr} \end{flushright}
-\end{tcolorbox}
-%
-\begin{tcolorbox}[title=\text{01-01-2021, Gibbs Free Energy}]
-In thermodynamics, the Gibbs Free Energy $(G)$ (named after Josiah Willard Gibbs) is a thermodynamic potential that calculates the maximum reversible work  performed by a thermodynamic system at a constant temperature $(T)$ and pressure $(P)$. It is given by 
-\begin{align*} 
-    \Delta G=\Delta H-T\Delta S 
-\end{align*} where $S$ represents its Entropy, i.e. the measure of randomness. S.I unit - Joules.
-\end{tcolorbox}
-%
 \end{document}
