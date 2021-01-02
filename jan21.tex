@@ -2,7 +2,9 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath, amssymb, amsfonts}
-\usepackage{tcolorbox, mdframed, hyperref, pgfplots, tikz, xcolor, fontenc, titlesec}
+\usepackage[dvipsnames*,svgnames]{xcolor}
+\usepackage{tcolorbox, mdframed, hyperref, pgfplots, tikz, fontenc, xunicode, titlesec}
+\setmathrm{\sffamily\textit{}}
 \pgfplotsset{compat=1.17}
 \tcbset{boxrule=0pt, width=5in, fonttitle=\sffamily\bfseries, sharp corners}
 %------------------------------------------------------------
@@ -52,7 +54,7 @@
 \newenvironment{biobox}[1][2]
 {
   \vspace{1em}
-  \begin{tcolorbox}[colback=green!30!white, colframe=green!90!black, title=#1]
+  \begin{tcolorbox}[colback=green!30!white, colframe=ForestGreen!85!green, title=#1]
   #
 }
 {
@@ -72,16 +74,16 @@
 %------------------------------------------------------------
 \begin{mathbox}
 [\text{01-01-2021, A Simple Proof}]
-Are there \textbf{infinite primes}? If yes, how do we prove they exist?\\
+Are there \textbf{infinitely many prime numbers}? If yes, how do we prove they exist?\\
 Here's a simple proof.\\
-Assume we have only $n$ prime numbers; $P_1, P_2, P_3, \dots P_n$.\\
+\textbf{Assume} we have only $n$ prime numbers; $P_1, P_2, P_3, \dots P_n$.\\
 $\text{Let}~N = P_1 \cdot P_2 \cdot P_3 \dots P_n + 1$\\
-$N$ isn't divisible by any of the primes $P_1, P_2, P_3, \dots P_n$  which implies $N$'s \textbf{prime factorisation} is $N \times 1$. $N$ being prime \textbf{contradicts} our initial assumption.\\
+$N$ \textbf{isn't divisible} by any of the primes $P_1, P_2, P_3, \dots P_n$  which implies $N$'s \textbf{prime factorisation} is $N \times 1$. $N$ being prime \textbf{contradicts} our initial assumption.\\
 Thus, there exist infinite primes.
 \end{mathbox}
 %------------------------------------------------------------
 \begin{phybox}[\text{02-01-2021, \href{https://en.wikipedia.org/wiki/Quark}{Neutrons and Protons have Components too!}}]
-Have you even wondered whether \textbf{protons, neutrons and electrons; the constituents of an atom,} can be \textbf{divided further} into constituting components? The answer is \textbf{"Yes"}. A \textbf{quark} is an elementary particle and a fundamental constituent of matter. Quarks combine to form particles called hadrons. All commonly observable matter is composed of \textbf{up quarks, down quarks and electrons}. Quarks are never found existing individually, they can be found only composing \textbf{hadrons}, which include \textbf{baryons} (protons and neutrons) and \textbf{mesons}, or in \textbf{quark–gluon plasma}.
+Have you ever wondered whether \textbf{protons, neutrons and electrons; the constituents of an atom,} can be \textbf{divided further} into constituting components? The answer is \textbf{"Yes"}. A \textbf{quark} is an elementary particle and a fundamental constituent of matter. Quarks combine to form particles called hadrons. All commonly observable matter is composed of \textbf{up quarks, down quarks and electrons}. Quarks are never found existing individually, they can be found only composing \textbf{hadrons}, which include \textbf{baryons} (protons and neutrons) and \textbf{mesons}, or in \textbf{quark–gluon plasma}.
 \end{phybox}
 %------------------------------------------------------------
 \begin{chembox}[\text{03-01-2021, \href{https://en.wikipedia.org/wiki/Ionic_bonding}{A Salty Bond}}]
@@ -90,8 +92,20 @@ The \textbf{Ionic bond} is a type of a \textbf{chemical bond} that is a result o
 %------------------------------------------------------------
 \begin{biobox}[\text{04-01-2021, It's Hot. But it Helps}]
 There are more than \textbf{10 million} cases of \textbf{Vitamin D deficiency} per year in India. Is Vitamin D really inaccessible? It is not! We can get Vitamin D from something as simple as \textbf{sunlight}. When our skin is exposed to sunlight, it makes Vitamin D (which, in reality, is \textbf{a hormone}) from \textbf{cholesterol}, a fat-rich and structural component of the animal cell membrane through the \textbf{energy} obtained from the sun’s \textbf{Ultraviolet-B (UVB)} rays and by the process of \textbf{Vitamin D synthesis}.\\
-\textit{Work Hard, Play Harder!} :')
+\textit{Work Hard, Play Harder!}
 \end{biobox} 
+%------------------------------------------------------------
+\begin{mathbox}[\text{05-01-2021, \href{https://en.wikipedia.org/wiki/Logarithm}{Exponentiation^{-1}}}]
+The \textbf{logarithm} function (denoted by $\log$) is the \textbf{inverse} function of \textbf{exponentiation}. It denotes the \textbf{exponent/power} to which the \textbf{'base'} has been raised to in a number. Here's an example;
+\begin{align*}
+    \text{Let } x = a^b. \text{ This implies} \log_a (x) = b
+\end{align*}
+The logarithm of $x$ to the base $a$ can be a \textbf{whole number, decimal number, irrational number} or even a \textbf{complex number} depending on its value. Often, \textbf{log graphs} are used to represent charts to compare growth, etc. i.e. the factors that increase exponentially. Logarithms involving complex numbers $(i)$ can be plotted on graphs for further exploration.
+\end{mathbox}
+%------------------------------------------------------------
+\begin{mathbox}[\text{09-01-2021, The Prime Number Theorem}]
+
+\end{mathbox}
 %------------------------------------------------------------
 \begin{mathbox}[\text{Some Day, \href{https://en.wikipedia.org/wiki/Catalan\%27s_conjecture}{Catalan's Conjecture}}]
 There exists only \textbf{one solution} where $x=3, a=2, y=2, b=3$ to the equation
