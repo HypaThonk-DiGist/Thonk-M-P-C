@@ -4,13 +4,11 @@ The subjects involved in this are as follows
 
 1) Maths
 
-2) Biology
+2) Physics
 
-3) Physics
+3) Chemistry
 
-4) Chemistry
-
-It starts with a simple proof on New Year's Day and the cycle for every subject becomes 4 days.
+It starts with a simple proof on New Year's Day and the cycle for every subject becomes 3 days.
 
 Each day, you will learn/read about a mindblowing fact or theorem!
 
