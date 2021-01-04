@@ -14,7 +14,7 @@ It starts with a simple proof on New Year's Day and the cycle for every subject 
 
 Each day, you will learn/read about a mindblowing fact or theorem!
 
-#Guide
+# Guide
 The PDF will be uploaded soon.
 
 The title for the day's fact/theorem will contain a hyperlink to a related article.
