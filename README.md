@@ -1,6 +1,6 @@
 # One-Learning-a-Day-One-Subject-at-a-Time
 A project which contains one theorem/principle/conjecture/factor for each day.
-The subjects involves in this are as follows
+The subjects involved in this are as follows
 
 1) Maths
 
@@ -10,4 +10,11 @@ The subjects involves in this are as follows
 
 4) Chemistry
 
-Each day we will provide you with some mindblowing facts and theorems!
+It starts with a simple proof on New Year's Day and the cycle for every subject becomes 4 days.
+
+Each day, you will learn/read about a mindblowing fact or theorem!
+
+#Guide
+The PDF will be uploaded soon.
+
+The title for the day's fact/theorem will contain a hyperlink to a related article.
