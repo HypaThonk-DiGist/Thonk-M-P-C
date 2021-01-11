@@ -1,5 +1,5 @@
 # Thonk; Math, Physics & Chemistry
-A project which contains one theorem/principle/conjecture/factor for each day.
+A project which contains one theorem/principle/conjecture/concept preferably for each day.
 The subjects involved in this are as follows
 
 1) Maths
@@ -8,11 +8,6 @@ The subjects involved in this are as follows
 
 3) Chemistry
 
-It starts with a simple proof on New Year's Day and the cycle for every subject becomes 3 days.
+It starts with a simple proof on New Year's Day and the cycles through 3 days for every subject.
 
 Each day, you will learn/read about a mindblowing fact or theorem!
-
-## Guide
-The PDF will be uploaded soon. Meanwhile, you can look the preview version.
- 
-The title for the day's fact/theorem will contain a hyperlink to a related article.
