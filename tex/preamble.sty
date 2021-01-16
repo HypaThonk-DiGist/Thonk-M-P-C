@@ -3,13 +3,16 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath, amssymb, amsfonts}
 \usepackage[dvipsnames]{xcolor}
-\usepackage{tcolorbox, mdframed, hyperref, pgfplots, tikz, fontenc, graphicx, tocloft}
+\usepackage{tcolorbox, mdframed, hyperref, pgfplots, tikz, fontenc, graphicx, tocloft, fancyhdr}
 \usepackage{titlesec}
+\usepackage[english]{babel}
 \pgfplotsset{compat=1.17}
-\tcbset{boxrule=0pt, width=5in, sharp corners}
+\tcbset{boxrule=0pt, width=5in, fonttitle=\bfseries\sffamily, sharp corners}
 %------------------------------------------------------------
-%------------------------------------------------------------
+\pagestyle{headings}
+\renewcommand{\headrulewidth}{2pt}
 %SOME STUFF TO MAKE WORK EASY XD
+%------------------------------------------------------------
 \newenvironment{guidebox}[2]
 {
   \vspace{1em}
@@ -63,5 +66,13 @@
   \end{tcolorbox}
 }
 %THE BIOLOGY ONE
+\titleformat{\section}
+{\Huge\bfseries\sffamily}{}{\centering \thesection~}{}
+\titleformat{\subsection}
+{\large\bfseries\sffamily}{\thesubsection}{1em}{}
+%------------------------------------------------------------
+\titleformat{\subsubsection}
+{\bfseries\sffamily}{\thesubsubsection}{1em}{}
 %------------------------------------------------------------
 \setcounter{section}{-1}
+
