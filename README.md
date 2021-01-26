@@ -29,3 +29,5 @@ If you want to contribute to the project, feel free to fork our Github Repositor
 This is the link to our Github Repository where we host most of the Static Files and we love Open-Source (Wait, who does not?), so we consider this a step towards accessible knowledge.
 
 <a href="https://github.com/Psi25Omega/Thonk-M-P-C"> Github Repository </a>
+
+You can view the PDF at <a href="https://psi25omega.github.io/Thonk/"> Thonk. </a>
