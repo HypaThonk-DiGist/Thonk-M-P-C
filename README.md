@@ -27,7 +27,7 @@ We also colour code our boxes to represent the different subjects the things cov
 If you want to contribute to the project, feel free to fork our Github Repository and submit pull requests or get in touch with one of the authors.
 ### Github
 This is the link to our Github Repository where we host most of the Static Files and we love Open-Source (Wait, who does not?), so we consider this a step towards accessible knowledge.
-
 <a href="https://github.com/Psi25Omega/Thonk-M-P-C"> Github Repository </a>
 
-You can view the PDF at <a href="https://psi25omega.github.io/Thonk/"> Thonk. </a>
+## An Update
+We're taking Thonk to a greater level and our new project is focused on a deeper discussion into a specific topic and its scope in real life. 
